@@ -85,6 +85,8 @@ function toggleMute() {
     video.muted = true;
   }
 
+  console.log('muted/unmuted')
+
 }
 
 setInterval(toggleMute,5000)
