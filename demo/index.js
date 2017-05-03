@@ -81,6 +81,7 @@ function toggleMute() {
 
   if(video.muted){
     video.muted = false;
+    video.play()
   } else {
     video.muted = true;
   }
